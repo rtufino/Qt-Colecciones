@@ -96,9 +96,9 @@ void listas(){
 void pilas(){
     // Creando una lista de pares
     QStack<float> pila;
-    pila.push(25.65);
-    pila.push(31.58);
-    pila.push(78.41);
+    pila.push(25.65f);
+    pila.push(31.58f);
+    pila.push(78.41f);
 
     qDebug() << "Pila original:" << pila;
 
